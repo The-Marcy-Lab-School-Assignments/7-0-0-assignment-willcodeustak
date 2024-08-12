@@ -30,15 +30,15 @@ function App() {
 
   const increaseFontSize = () => {
     setFontSize((prevSize) => { // `prevSize` is the current font size as a string (e.g., '16px').
-      const newSize = parseInt(prevSize, 10) + 2; // Convert `prevSize` to an integer (e.g., '16px' becomes 16) and add 2.
-      return `${newSize}px`; // Convert `newSize` back to a string with 'px' (e.g., 18 becomes '18px').
+      const newIncreasedSize = parseInt(prevSize, 10) + 2; // Convert `prevSize` to an integer (e.g., '16px' becomes 16) and add 2.
+      return `${newIncreasedSize}px`; // Convert `newSize` back to a string with 'px' (e.g., 18 becomes '18px').
     });
   };
 
   const decreaseFontSize = () => {
     setFontSize((prevSize) => { // `prevSize` is the current font size as a string (e.g., '16px').
-      const newSize = Math.max(parseInt(prevSize, 10) - 2, 8); // Convert `prevSize` to an integer and subtract 2. Ensure the result is at least 8.
-      return `${newSize}px`; // Convert `newSize` back to a string with 'px' (e.g., 14 becomes '14px').
+      const newDecreasedSize = Math.max(parseInt(prevSize, 10) - 2, 8); // Convert `prevSize` to an integer and subtract 2. Ensure the result is at least 8.
+      return `${newDecreasedSize}px`; // Convert `newSize` back to a string with 'px' (e.g., 14 becomes '14px').
     });
   };
 
