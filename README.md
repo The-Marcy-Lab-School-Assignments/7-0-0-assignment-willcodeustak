@@ -29,20 +29,20 @@ Your goal is to meet at least 75% of these requirements to complete the assignme
 - [x] Your app should render as a greeting (perhaps, "Good Morning") in English. 
 - [x] Beneath this greeting, there should be five buttons. 
 - [x] Each button should correspond to a different language (perhaps, "Spanish", "Haitian Creole", and "Portuguese"). 
-- [] When a language button is clicked, the greeting above should be translated to the appropriate language.
-- [ ] Above your greeting, there should be two buttons to change the font size.
-- [ ] When the buttons are clicked, the greeting size should grow or shrink accordingly. 
+- [x] When a language button is clicked, the greeting above should be translated to the appropriate language.
+- [x] Above your greeting, there should be two buttons to change the font size.
+- [x] When the buttons are clicked, the greeting size should grow or shrink accordingly. 
 
 **React Fundamentals**
-- [ ] Component names use PascalCase (`MyComponent` instead of `myComponent`)
-- [ ] Props are extracted in child components using destructuring
-- [ ] `useState` is used to manage state
+- [x] Component names use PascalCase (`MyComponent` instead of `myComponent`)
+- [x] Props are extracted in child components using destructuring
+- [x] `useState` is used to manage state
 
 **Miscellaneous**
-- [ ] Used Vite to create the project
-- [ ] The size buttons, the greeting, and the language buttons should each be their own component for a total of 3 components (on top of the root `App`)
-- [ ] At no point did you ever use any vanilla DOM JS methods (e.g. `document.querySelector` or `document.createElement`)
-- [ ] Bonus: You have a `components` directory. Each component has its own file and is exported (1 export per file). The filename matches the name of the component being exported (`Header.jsx` exports a `Header` component).
+- [x] Used Vite to create the project
+- [x] The size buttons, the greeting, and the language buttons should each be their own component for a total of 3 components (on top of the root `App`)
+- [x] At no point did you ever use any vanilla DOM JS methods (e.g. `document.querySelector` or `document.createElement`)
+- [x] Bonus: You have a `components` directory. Each component has its own file and is exported (1 export per file). The filename matches the name of the component being exported (`Header.jsx` exports a `Header` component).
 - [ ] Bonus: Your project has some extra CSS styling!
 
 ## Set Up
