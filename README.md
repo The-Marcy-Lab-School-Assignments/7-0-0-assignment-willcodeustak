@@ -26,10 +26,10 @@ There are 12 tasks to complete and 2 bonuses.
 Your goal is to meet at least 75% of these requirements to complete the assignment. But don't stop there! Shoot for 100%! 
 
 **Functionality:**
-- [ ] Your app should render as a greeting (perhaps, "Good Morning") in English. 
-- [ ] Beneath this greeting, there should be five buttons. 
-- [ ] Each button should correspond to a different language (perhaps, "Spanish", "Haitian Creole", and "Portuguese"). 
-- [ ] When a language button is clicked, the greeting above should be translated to the appropriate language.
+- [x] Your app should render as a greeting (perhaps, "Good Morning") in English. 
+- [x] Beneath this greeting, there should be five buttons. 
+- [x] Each button should correspond to a different language (perhaps, "Spanish", "Haitian Creole", and "Portuguese"). 
+- [] When a language button is clicked, the greeting above should be translated to the appropriate language.
 - [ ] Above your greeting, there should be two buttons to change the font size.
 - [ ] When the buttons are clicked, the greeting size should grow or shrink accordingly. 
 
